@@ -122,7 +122,6 @@ create view v1 as
 select e.E_name, e.job, d.D_name, d.loc from EMP e
 join DEPARTMENT d on e.dept_no=d.dept_no;
 
-select * from v1;
 
 -- Q.26 Add column Pin with bigint data type in table student
 CREATE TABLE STUDENT (
